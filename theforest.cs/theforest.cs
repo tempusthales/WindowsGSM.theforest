@@ -34,7 +34,7 @@ namespace WindowsGSM.Plugins
 
         // - Game server Fixed variables
         public override string StartPath => "TheForestDedicatedServer.exe"; // Game server start path, for the_forest, it is TheForestDedicatedServer.exe
-        public string FullName = "The Forest Dedicated Server; // Game server FullName
+        public string FullName = "The Forest Dedicated Server"; // Game server FullName
         public bool AllowsEmbedConsole = false;  // Does this server support output redirect?
         public int PortIncrements = 2; // This tells WindowsGSM how many ports should skip after installation
         public object QueryMethod = new A2S(); // Query method should be use on current server type. Accepted value: null or new A2S() or new FIVEM() or new UT3()
